@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import folderSlice from '../features/folderStructure/folderSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    folder : folderSlice.reducer,
   },
 });

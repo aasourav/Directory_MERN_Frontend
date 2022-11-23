@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btnPos{
+  background-color: rgb(4, 165, 125);
+  color: #fff;
+  width: 90px;
+  height: 27px;
+  font-size: medium;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 0;
+  margin-right: 10px;
+}
+.btnNeg{
+  background-color: rgb(236, 78, 30);
+  color: #fff;
+  width: 90px;
+  height: 27px;
+  font-size: medium;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 0;
+}
+.NF{
+  display: flex;
+  justify-content: center;
+  margin-top: 35%;
+}
+.btnSet{
+  align-self: flex-end;
+}
+.NewFolder{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(176, 240, 219);
+  padding: 50px;
+  border-radius: 10px;
+}
+.label{
+  font-weight: 400;
+}
+.inputStyle{
+  margin-bottom: 10px;
+  width: 400px;
+  height: 30px;
+}
+
+.DltFolder{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(176, 240, 219);
+  padding: 10px;
+  width: 350px;
+  height: 100px;
+  border-radius: 10px;
+}
+.folderPage{
+  display: flex;
+  justify-content: center;
+}
+.folderWrapper{
+  margin-top: 50px;
+  width: 70%;
+  align-self: center;
+}
+.dirClass{
+  font-size: 20px;
+  padding: 0px 20px;
+  background-color: aqua;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dirDir{
+  margin-right: 5px;
+  padding-bottom: 5p;
+}
