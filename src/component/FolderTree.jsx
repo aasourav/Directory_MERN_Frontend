@@ -24,15 +24,15 @@ const FolderTree = ({padding,data,paretnTrackforDelete}) => {
                   <div className='flex items-center'>
                       <h3 className='pr-4'>
                           {FolderOpen ?
-                              <i onClick={openClose} className="fa-sharp fa-solid fa-caret-right dirDir"></i>
+                              <i onClick={openClose} className="cursor-pointer fa-sharp fa-solid fa-caret-right dirDir"></i>
                               :
-                              <i onClick={openClose} className="fa-sharp fa-solid fa-caret-down dirDir"></i>
+                              <i onClick={openClose} className="cursor-pointer fa-sharp fa-solid fa-caret-down dirDir"></i>
                           }
                           {data.folderName}
                       </h3>
-                      <i onClick={deletePage} className="fa-regular fa-circle-xmark"></i>
+                      <i onClick={deletePage} className=" cursor-pointerfa-regular fa-circle-xmark"></i>
                   </div>
-                  <i onClick={createPage} className="fa-solid fa-plus"></i>
+                  <i onClick={createPage} className="cursor-pointer fa-solid fa-plus"></i>
             </div>
 
 

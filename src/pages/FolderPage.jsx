@@ -30,13 +30,13 @@ const FolderPage = () => {
                 <div className={`bg-blue-200 flex w-full justify-between items-center px-2 py-1 pl-${2}`}>
                     <h3 >
                         {rootFolderOpen ?
-                            <i onClick={openClose} className="fa-sharp fa-solid fa-caret-right dirDir"></i>
+                            <i onClick={openClose} className="cursor-pointer fa-sharp fa-solid fa-caret-right dirDir"></i>
                             :
-                            <i onClick={openClose} className="fa-sharp fa-solid fa-caret-down dirDir"></i>
+                            <i onClick={openClose} className="cursor-pointer fa-sharp fa-solid fa-caret-down dirDir"></i>
                         }
                         Root
                     </h3>
-                    <i onClick={Create} className="fa-solid fa-plus"></i>
+                    <i onClick={Create} className="cursor-pointer fa-solid fa-plus"></i>
             
                 </div>
                 {!rootFolderOpen && folders.folders['root']  ? 
