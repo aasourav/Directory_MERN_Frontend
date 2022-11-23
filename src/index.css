@@ -36,6 +36,7 @@ code {
 }
 .NF{
   display: flex;
+  width: 80%;
   justify-content: center;
   margin-top: 15%;
 }
