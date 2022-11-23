@@ -30,7 +30,7 @@ const FolderTree = ({padding,data,paretnTrackforDelete}) => {
                           }
                           {data.folderName}
                       </h3>
-                      <i onClick={deletePage} className=" cursor-pointerfa-regular fa-circle-xmark"></i>
+                      <i onClick={deletePage} className="cursor-pointer fa-regular fa-circle-xmark"></i>
                   </div>
                   <i onClick={createPage} className="cursor-pointer fa-solid fa-plus"></i>
             </div>
