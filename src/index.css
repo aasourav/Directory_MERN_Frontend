@@ -36,7 +36,6 @@ code {
 }
 .NF{
   display: flex;
-  width: 80%;
   justify-content: center;
   margin-top: 15%;
 }
@@ -58,7 +57,7 @@ code {
   padding:2px;
   padding-left:4px;
   padding-right: 4px;
-  width: 400px;
+  width: 300px;
   height: 30px;
 }
 
