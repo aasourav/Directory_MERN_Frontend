@@ -37,7 +37,7 @@ code {
 .NF{
   display: flex;
   justify-content: center;
-  /* margin-top: 35%; */
+  margin-top: 15%;
 }
 .btnSet{
   align-self: flex-end;
