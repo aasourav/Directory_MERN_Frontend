@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const FolderTree = ({padding,data,paretnTrackforDelete}) => {
     const navigate = useNavigate();
     const [FolderOpen,setFolderOpen] = useState(true);
-
+    const parent_data = data._id;
     const deletePage = ()=>{
       navigate(`/delete/${folders.folders[data._id].parent+"&"+data.folderName+"&"+paretnTrackforDelete}`);
     }
@@ -44,7 +44,7 @@ const FolderTree = ({padding,data,paretnTrackforDelete}) => {
                     (<div key={i} className='flex flex-col'>
                         <FolderTree  data={data}
                         padding={padding+1}
-                        paretnTrackforDelete={data._id}
+                        paretnTrackforDelete={parent_data}
                         />
                     </div>))
 
